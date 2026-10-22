@@ -6,7 +6,7 @@ Orbit 是 Windows 11 x64 桌面資訊工具，提供日期時鐘、Codex 額度�
 
 ## 下載與開啟
 
-[下載 Orbit 1.0.0-rc.1 免安裝 ZIP](https://github.com/max83113-maxxxxxxxx/Orbit-releases/releases/download/v1.0.0-rc.1/Orbit_1.0.0-rc.1_windows-x64-portable.zip) · [版本說明與 SHA-256](https://github.com/max83113-maxxxxxxxx/Orbit-releases/releases/tag/v1.0.0-rc.1)
+[下載 Orbit 1.0.0-rc.2 免安裝 ZIP](https://github.com/max83113-maxxxxxxxx/Orbit-releases/releases/download/v1.0.0-rc.2/Orbit_1.0.0-rc.2_windows-x64-portable.zip) · [版本說明與 SHA-256](https://github.com/max83113-maxxxxxxxx/Orbit-releases/releases/tag/v1.0.0-rc.2)
 
 下載 Releases 中名稱包含 `windows-x64-portable.zip` 的檔案，完整解壓縮至你有寫入權限的資料夾，開啟 `Orbit.exe`。請保留同一資料夾中的 `binaries` 與 `orbit-portable.json`。GitHub 自動顯示的 Source code 壓縮檔只包含下載說明，請使用版本附件中的 Orbit ZIP。
 
@@ -19,6 +19,8 @@ Orbit 是 Windows 11 x64 桌面資訊工具，提供日期時鐘、Codex 額度�
 - Google 功能目前限已加入應用程式測試名單的帳號；尚未完成 Google 公開驗證。採官方登入與唯讀權限，不讀郵件內文、不寄信或修改郵件。
 - 此測試版尚無 Windows Authenticode 發行者憑證。更新包的驗證簽章與 Windows 發行者簽章是不同項目；遇到系統提示時，請核對本站來源與版本提供的 SHA-256，無需關閉防毒。
 - 請將程式放在可寫入的位置，保留更新與備份空間。更新時若斷電或磁碟損壞，必要時可重新下載完整 ZIP，或從程式資料夾內更新備份的 `previous` 回復。
+
+操作說明：https://orbit.masaju.com/guide
 
 官網：https://orbit.masaju.com/  
 隱私權：https://orbit.masaju.com/privacy  

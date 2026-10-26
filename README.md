@@ -6,7 +6,7 @@ Orbit 是 Windows 11 x64 桌面資訊工具，提供日期時鐘、Codex 額度�
 
 ## 下載與開啟
 
-[下載 Orbit 1.0.0-rc.3 免安裝 ZIP](https://github.com/max83113-maxxxxxxxx/Orbit-releases/releases/download/v1.0.0-rc.3/Orbit_1.0.0-rc.3_windows-x64-portable.zip) · [版本說明與 SHA-256](https://github.com/max83113-maxxxxxxxx/Orbit-releases/releases/tag/v1.0.0-rc.3)
+[下載 Orbit 1.0.0-rc.4 免安裝 ZIP](https://github.com/max83113-maxxxxxxxx/Orbit-releases/releases/download/v1.0.0-rc.4/Orbit_1.0.0-rc.4_windows-x64-portable.zip) · [版本說明與 SHA-256](https://github.com/max83113-maxxxxxxxx/Orbit-releases/releases/tag/v1.0.0-rc.4)
 
 下載 Releases 中名稱包含 `windows-x64-portable.zip` 的檔案，完整解壓縮至你有寫入權限的資料夾，開啟 `Orbit.exe`。請保留同一資料夾中的 `binaries` 與 `orbit-portable.json`。GitHub 自動顯示的 Source code 壓縮檔只包含下載說明，請使用版本附件中的 Orbit ZIP。
 

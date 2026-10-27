@@ -4,6 +4,8 @@ Orbit 是 Windows 11 x64 桌面資訊工具，提供日期時鐘、Codex 額度�
 
 此版本庫只提供下載與版本說明；Orbit 原始碼維持私人。
 
+1.0.0-rc.5 新增自動精簡小時鐘：閒置後縮為約 108×64，分行顯示時間、日期與星期。等待時間可選 10 秒、30 秒、1 分鐘、3 分鐘或 5 分鐘；點擊或新提醒恢復原面板，不搶焦點，已隱藏的視窗保持隱藏。
+
 ## 下載與開啟
 
 [下載 Orbit 1.0.0-rc.5 免安裝 ZIP](https://github.com/max83113-maxxxxxxxx/Orbit-releases/releases/download/v1.0.0-rc.5/Orbit_1.0.0-rc.5_windows-x64-portable.zip) · [版本說明與 SHA-256](https://github.com/max83113-maxxxxxxxx/Orbit-releases/releases/tag/v1.0.0-rc.5)

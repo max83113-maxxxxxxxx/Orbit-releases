@@ -4,11 +4,21 @@ Orbit 是 Windows 11 x64 桌面資訊工具，提供日期時鐘、Codex 額度�
 
 此版本庫只提供下載與版本說明；Orbit 原始碼維持私人。
 
-1.0.0-rc.6 修正精簡小時鐘：維持約 108×64，日期與星期保持同一行，滑鼠移入或鍵盤焦點加亮背景與框線。改善背景狀態可能阻止閒置收合的問題，等待時間仍可選 10 秒、30 秒、1 分鐘、3 分鐘或 5 分鐘；點擊或新提醒恢復原面板，不搶焦點，已隱藏的視窗保持隱藏。
+目前公開測試版：**1.1.0**。
+
+精簡小時鐘本體維持約 108×64，時間固定在上方。新增「設定 → 基本 → 精簡資訊輪播」：開啟後每 6 秒輪播日期、Codex 額度、今日行程與 Gmail 本機新信摘要；滑鼠或鍵盤焦點停留會暫停，點擊進入對應頁。輪播預設關閉，未連接或資料過期會明確標示，不補假數值；Gmail 數量不是整個信箱未讀總數。
+
+鈴鐺與待處理數量移到小時鐘框外，不再擠壓內容。有提醒時整體視窗約 108×96，全部關閉後縮回。「設定 → 提醒」可選提醒在上方／下方，預設下方；新增「新提醒自動展開」，預設開啟，關閉後維持精簡，只更新框外提醒，鈴聲仍依獨立設定。不搶焦點、不改置頂、不叫出使用者已隱藏的視窗。
+
+完整面板與精簡小時鐘各自記住位置，移動小時鐘不會覆寫大面板的位置。第一次收合靠原面板右下角，之後切換與重開各自回原位；各放到喜歡的位置一次便會自動保存。螢幕配置改變時仍會救回可操作範圍。
+
+修正設定調整後捲回頂端：同一分頁保留捲動位置與焦點，快速連續調整也不會互相覆蓋。等待時間保留 10 秒、30 秒、1 分鐘、3 分鐘、5 分鐘，預設 5 分鐘；操作 Orbit、停留、設定、登入與前景查詢期間不收合。
+
+使用者已授權本批直接發布，未另提供定位修正後逐項真人驗收結果。開發驗證：TypeScript 10 項、Rust 45 項（1 ignored）、桌面回歸 55 項與定位專項兩組通過；實際等待約 10.77 秒收合。隔離模擬不替代真實 Google、其他電腦、混合 DPI、睡眠喚醒或長時間驗收。
 
 ## 下載與開啟
 
-[下載 Orbit 1.0.0-rc.6 免安裝 ZIP](https://github.com/max83113-maxxxxxxxx/Orbit-releases/releases/download/v1.0.0-rc.6/Orbit_1.0.0-rc.6_windows-x64-portable.zip) · [版本說明與 SHA-256](https://github.com/max83113-maxxxxxxxx/Orbit-releases/releases/tag/v1.0.0-rc.6)
+[下載 Orbit 1.1.0 免安裝 ZIP](https://github.com/max83113-maxxxxxxxx/Orbit-releases/releases/download/v1.1.0/Orbit_1.1.0_windows-x64-portable.zip) · [版本說明與 SHA-256](https://github.com/max83113-maxxxxxxxx/Orbit-releases/releases/tag/v1.1.0)
 
 下載 Releases 中名稱包含 `windows-x64-portable.zip` 的檔案，完整解壓縮至你有寫入權限的資料夾，開啟 `Orbit.exe`。請保留同一資料夾中的 `binaries` 與 `orbit-portable.json`。GitHub 自動顯示的 Source code 壓縮檔只包含下載說明，請使用版本附件中的 Orbit ZIP。
 
